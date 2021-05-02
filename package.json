@@ -1,0 +1,35 @@
+{
+  "name": "my-promise-polyfill",
+  "version": "1.0.0",
+  "description": "es5-promise-polyfill",
+  "main": "./src/polyfill.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "node ./src/index.js",
+    "build:lib": "parcel build ./src/index.js -d lib -o index.js --no-source-maps --no-minify",
+    "build:lib:min": "parcel build ./src/index.js -d lib -o index.min.js",
+    "build:polyfill": "parcel build ./src/polyfill.js -o polyfill.js --no-source-maps --no-minify",
+    "build:polyfill:min": "parcel build ./src/polyfill.js -o polyfill.min.js --no-source-maps",
+    "build": "npm run build:polyfill && npm run build:polyfill:min && npm run build:lib && npm run build:lib:min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1015355299/my-promise-polyfill.git"
+  },
+  "keywords": [
+    "es5-promise"
+  ],
+  "author": "5102",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1015355299/my-promise-polyfill/issues"
+  },
+  "homepage": "https://github.com/1015355299/my-promise-polyfill#readme",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^8.3.2",
+    "parcel-bundler": "^1.12.5",
+    "promises-aplus-tests": "^2.1.2",
+    "sinon": "^10.0.0"
+  }
+}

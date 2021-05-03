@@ -1,6 +1,6 @@
 {
   "name": "my-promise-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "es5-promise-polyfill",
   "main": "./src/polyfill.js",
   "scripts": {

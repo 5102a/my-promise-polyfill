@@ -1,3 +1,5 @@
+
+[![GitHub stars](https://img.shields.io/github/stars/1015355299/my-promise-polyfill)](https://github.com/1015355299/my-promise-polyfill/stargazers) [![GitHub issues](https://img.shields.io/github/issues/1015355299/my-promise-polyfill)](https://github.com/1015355299/my-promise-polyfill/issues) [![GitHub license](https://img.shields.io/github/license/1015355299/my-promise-polyfill)](https://github.com/1015355299/my-promise-polyfill/blob/main/LICENSE)
 # my-promise-polyfill
 
 es5的promise实现
